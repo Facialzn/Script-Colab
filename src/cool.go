@@ -8,10 +8,6 @@ func rest_a_b(int a, int b) {
 }
 
 func main() {
-	a := 1
-	b := 2
-	c := a + b
-
-	fmt.Printf("Hola, es: %s", c)
-	fmt.Printf("Hola, es: %s", rest_a_b(a, b))
+	fmt.Printf("Hola, es: %s", 1 + 2)
+	fmt.Printf("Hola, es: %s", rest_a_b(1, 2))
 }
