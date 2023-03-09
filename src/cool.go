@@ -1,6 +1,7 @@
 package main
 
 import "fmt"
+import "strings"
 
 func rest_a_b(a int, b int) int {
 	return a + b
